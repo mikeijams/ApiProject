@@ -30,7 +30,26 @@
 </div>
 
 </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCMdoyzy2KMpZmr7dDMI8vonf_cTLozYhU",
+    authDomain: "mi-poke-api.firebaseapp.com",
+    databaseURL: "https://mi-poke-api.firebaseio.com",
+    projectId: "mi-poke-api",
+    storageBucket: "mi-poke-api.appspot.com",
+    messagingSenderId: "288220302549",
+    appId: "1:288220302549:web:9adbfdacb40c8b990fe65c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
 <script src="index.js"></script>
 </body>
